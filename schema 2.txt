@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@graph": {
+    "@type": "ImageObject",
+    "contentUrl": "%post_thumbnail%",
+    "license": "%url%",
+    "acquireLicensePage": "%url%",
+    "creditText": "%org_name%",
+    "creator": {
+      "@type": "Person",
+      "name": "%name%"
+    },
+    "copyrightNotice": "%org_name%"
+  }
+}

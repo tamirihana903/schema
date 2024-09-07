@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": {
+    "@type": "Product",
+    "name": "%title%",
+    "image": [
+      "%post_thumbnail%"
+    ],
+    "brand": {
+      "@type": "Brand",
+      "name": "%org_name%"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "89"
+    }
+  }
+}

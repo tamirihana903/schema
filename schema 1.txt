@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@graph": {
+    "@type": "Person",
+    "name": "%title%",
+    "description": "%seo_description%",
+    "email": "%name%@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "349 5th Ave",
+      "addressRegion": "New York, NY",
+      "postalCode": "10016",
+      "addressCountry": "United States"
+    },
+    "jobTitle": "%org_name%"
+  }
+}
